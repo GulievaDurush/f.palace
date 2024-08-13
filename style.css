@@ -1,0 +1,741 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Gilroy" sans-serif;
+  list-style-type: none;
+}
+* a {
+  text-decoration: none;
+}
+
+body a {
+  text-decoration: none;
+}
+
+header {
+  width: 1225px;
+  height: 727.22px;
+  border: 1px 0px 0px 0px;
+  justify-content: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  position: relative;
+}
+header nav .nav {
+  display: flex;
+}
+header nav .nav .search,
+header nav .nav .shop {
+  margin-right: 40px;
+}
+header nav .nav a {
+  color: black;
+}
+header .back-1 {
+  position: absolute;
+  top: 0;
+  left: 40%;
+}
+header .h {
+  display: flex;
+  margin-top: 100px;
+}
+header .h .text-h .p {
+  display: flex;
+}
+header .h .text-h .p .p1 {
+  margin-top: 5px;
+  margin-right: 5px;
+  color: #FF9401;
+}
+header .h .text-h .p .p2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #FF9401;
+}
+header .h .text-h h1 {
+  font-size: 76px;
+  font-weight: 800;
+  line-height: 108px;
+  text-align: left;
+  color: #232323;
+}
+header .h .text-h h1 .sp-2 {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+header .h .text-h p {
+  font-family: "Circular Std" sans-serif;
+  font-size: 20px;
+  font-weight: 450;
+  line-height: 32px;
+  text-align: left;
+  color: #3F3232;
+}
+header .h .text-h .btn-1 {
+  width: 220px;
+  height: 50px;
+  background-color: #FF9401;
+  text-align: center;
+  padding-top: 12px;
+  border-radius: 30px;
+  margin-top: 50px;
+  box-shadow: 0px 20px 40px 0px rgba(255, 148, 1, 0.2);
+}
+header .h .text-h .btn-1 a {
+  text-decoration: none;
+  color: #fff;
+  font-family: " Circular Std" sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+header .h .text-h .web {
+  margin-top: 50px;
+}
+header .h .text-h .web a {
+  color: black;
+  margin-left: 20px;
+}
+header .h .img-h img {
+  width: 800px;
+}
+
+.about {
+  height: 686px;
+  background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.about .img-ab img {
+  width: 800px;
+}
+.about .text-ab {
+  margin-top: 200px;
+  width: 400px;
+}
+.about .text-ab h5 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #FF9401;
+}
+.about .text-ab h3 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: #2E2E2E;
+  margin-top: 20px;
+}
+.about .text-ab p {
+  font-family: "Circular Std" sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #3F3232;
+  margin-top: 30px;
+}
+.about .text-ab .btn-2 {
+  width: 200px;
+  height: 50px;
+  background-color: #FF9401;
+  text-align: center;
+  padding-top: 9px;
+  border-radius: 30px;
+  margin-top: 40px;
+  box-shadow: 0px 20px 40px 0px rgba(255, 148, 1, 0.1490196078);
+}
+.about .text-ab .btn-2 a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Circular Std" sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+
+.features {
+  margin-top: 150px;
+  position: relative;
+}
+.features .img-6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.features .img-7 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.features .features-main {
+  width: 971px;
+  height: 466px;
+  margin: auto;
+}
+.features h5 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  color: #FF9401;
+}
+.features h3 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  color: #2E2E2E;
+}
+.features .service {
+  margin-left: 20px;
+  display: flex;
+  width: 971px;
+  height: 319px;
+  justify-content: space-between;
+}
+.features .service .food,
+.features .service .taste,
+.features .service .fast {
+  width: 245px;
+  height: 306px;
+  margin-top: 50px;
+}
+.features .service .food a img,
+.features .service .taste a img,
+.features .service .fast a img {
+  margin-bottom: 20px;
+  margin-left: 70px;
+}
+.features .service .food h6,
+.features .service .taste h6,
+.features .service .fast h6 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  color: #2E2E2E;
+}
+.features .service .food p,
+.features .service .taste p,
+.features .service .fast p {
+  text-align: center;
+  font-family: "Circular Std" sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-align: center;
+  color: #3F3232;
+}
+
+.recipes {
+  height: 785px;
+  background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
+}
+.recipes h5 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  color: #FF9401;
+  padding-top: 100px;
+}
+.recipes h3 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: center;
+  color: #2E2E2E;
+}
+.recipes .food-menu {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  box-shadow: 0px 40px 80px 0px rgba(255, 148, 1, 0.1490196078);
+}
+.recipes .food-menu .food-1 {
+  width: 354px;
+  height: 362px;
+  background-color: #fff;
+}
+.recipes .food-menu .food-1 img {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.recipes .food-menu .food-1 .dis-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.recipes .food-menu .food-1 .dis-1 h6 {
+  font-family: "Circular Std" sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: left;
+  margin-left: 10px;
+}
+.recipes .food-menu .food-1 .dis-1 p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #818181;
+  margin-right: 10px;
+}
+.recipes .food-menu .food-1 .dis-1 p img {
+  margin: 0;
+}
+.recipes .food-menu .food-1 .dis-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.recipes .food-menu .food-1 .dis-2 .card {
+  margin-left: 10px;
+  width: 100px;
+  height: 22px;
+  border-radius: 10px;
+  background: rgba(196, 196, 196, 0.2588235294);
+}
+.recipes .food-menu .food-1 .dis-2 .card a {
+  text-decoration: none;
+  color: #696969;
+  font-family: "Circular Std" sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 4px;
+}
+.recipes .food-menu .food-1 .dis-2 p {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: left;
+  color: #FF9401;
+  margin-right: 10px;
+}
+.recipes .food-menu .food-2 {
+  width: 354px;
+  height: 362px;
+  background-color: #fff;
+}
+.recipes .food-menu .food-2 img {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.recipes .food-menu .food-2 .dis-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.recipes .food-menu .food-2 .dis-1 h6 {
+  font-family: "Circular Std" sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: left;
+  margin-left: 10px;
+}
+.recipes .food-menu .food-2 .dis-1 p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #818181;
+  margin-right: 10px;
+}
+.recipes .food-menu .food-2 .dis-1 p img {
+  margin: 0;
+}
+.recipes .food-menu .food-2 .dis-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.recipes .food-menu .food-2 .dis-2 .card {
+  margin-left: 10px;
+  width: 100px;
+  height: 22px;
+  border-radius: 10px;
+  background: rgba(196, 196, 196, 0.2588235294);
+}
+.recipes .food-menu .food-2 .dis-2 .card a {
+  text-decoration: none;
+  color: #696969;
+  font-family: "Circular Std" sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 4px;
+}
+.recipes .food-menu .food-2 .dis-2 p {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: left;
+  color: #FF9401;
+  margin-right: 10px;
+}
+.recipes .food-menu .food-3 {
+  width: 354px;
+  height: 362px;
+  background-color: #fff;
+}
+.recipes .food-menu .food-3 img {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.recipes .food-menu .food-3 .dis-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.recipes .food-menu .food-3 .dis-1 h6 {
+  font-family: "Circular Std" sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: left;
+  margin-left: 10px;
+}
+.recipes .food-menu .food-3 .dis-1 p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #818181;
+  margin-right: 10px;
+}
+.recipes .food-menu .food-3 .dis-1 p img {
+  margin: 0;
+}
+.recipes .food-menu .food-3 .dis-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.recipes .food-menu .food-3 .dis-2 .card {
+  margin-left: 10px;
+  width: 100px;
+  height: 22px;
+  border-radius: 10px;
+  background: rgba(196, 196, 196, 0.2588235294);
+}
+.recipes .food-menu .food-3 .dis-2 .card a {
+  text-decoration: none;
+  color: #696969;
+  font-family: "Circular Std" sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 4px;
+}
+.recipes .food-menu .food-3 .dis-2 p {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: left;
+  color: #FF9401;
+  margin-right: 10px;
+}
+.recipes .btn-2 {
+  width: 220px;
+  height: 50px;
+  background-color: #FF9401;
+  text-align: center;
+  padding-top: 12px;
+  border-radius: 30px;
+  margin-top: 50px;
+  box-shadow: 0px 20px 40px 0px rgba(255, 148, 1, 0.2);
+  margin: auto;
+}
+.recipes .btn-2 a {
+  text-decoration: none;
+  color: #fff;
+  font-family: " Circular Std" sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+
+.app-img {
+  position: relative;
+  margin-bottom: 250px;
+}
+.app-img .img-8 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.app-img .img-9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.app-intro {
+  display: flex;
+  position: relative;
+}
+.app-intro .app-img {
+  margin-right: 100px;
+  border: 2px solid;
+  border-image-source: linear-gradient(180deg, #FF9401 0%, rgba(255, 148, 1, 0) 100%);
+}
+.app-intro .app-text {
+  width: 451px;
+  height: 462px;
+}
+.app-intro .app-text h5 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #FF9401;
+}
+.app-intro .app-text h3 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: #2E2E2E;
+}
+.app-intro .app-text p {
+  font-family: "Circular Std" sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #3F3232;
+  margin-top: 20px;
+}
+.app-intro .app-text img {
+  margin-top: 30px;
+}
+
+.test {
+  display: flex;
+  justify-content: space-between;
+}
+.test .test-text .text-1 {
+  width: 357px;
+}
+.test .test-text .text-1 h5 {
+  color: #FF9401;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+.test .test-text .text-1 h3 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: #2E2E2E;
+  margin-bottom: 40px;
+}
+.test .test-text .text-1 p {
+  font-family: "Circular Std" sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-align: left;
+  color: #3F3232;
+  margin-bottom: 50px;
+}
+.test .test-text .text-2 .p1 {
+  color: #2E2E2E;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 10px;
+  text-align: left;
+}
+.test .test-text .text-2 .p2 {
+  font-family: "Circular Std" sans-serif;
+  font-size: 14px;
+  font-weight: 450;
+  line-height: 22px;
+  text-align: left;
+  color: #675959;
+}
+.test .test-img {
+  width: 744.7px;
+  height: 543.94px;
+}
+
+.foot-img {
+  position: relative;
+}
+.foot-img .img-10 {
+  position: absolute;
+  bottom: -200px;
+  width: 205.68px;
+  height: 307.76px;
+  left: -23px;
+  gap: 0px;
+  opacity: 0px;
+  rotate: 19 deg;
+}
+.foot-img .img-10 img {
+  width: 200px;
+  margin-top: 100px;
+}
+.foot-img .img-11 {
+  position: absolute;
+  width: 117px;
+  height: 109px;
+  right: 0;
+  bottom: 30px;
+}
+
+footer {
+  margin-top: 300px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
+}
+footer .footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-nav .contact {
+  width: 230px;
+  height: 135px;
+  margin-right: 70px;
+}
+footer .footer-nav .contact li {
+  margin-top: 10px;
+}
+footer .footer-nav .contact li a {
+  font-family: "Circular Std" sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #3F3232;
+}
+footer .footer-nav .contact li a .icon {
+  margin-right: 10px;
+}
+footer .footer-nav .small-menu {
+  width: 110px;
+  height: 187px;
+}
+footer .footer-nav .small-menu h6 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #2E2E2E;
+}
+footer .footer-nav .small-menu li {
+  margin-top: 10px;
+}
+footer .footer-nav .small-menu li a {
+  font-family: "Circular Std" sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #6A5C5C;
+}
+footer .footer-nav .info {
+  width: 110px;
+  height: 187px;
+}
+footer .footer-nav .info h6 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #2E2E2E;
+}
+footer .footer-nav .info li {
+  margin-top: 10px;
+}
+footer .footer-nav .info li a {
+  font-family: "Circular Std" sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #6A5C5C;
+}
+footer .footer-nav .links {
+  width: 130px;
+  height: 187px;
+}
+footer .footer-nav .links h6 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #2E2E2E;
+}
+footer .footer-nav .links li {
+  margin-top: 10px;
+}
+footer .footer-nav .links li a {
+  font-family: "Circular Std" sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #6A5C5C;
+}
+footer .footer-nav .social {
+  width: 150px;
+  height: 187px;
+}
+footer .footer-nav .social h6 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #2E2E2E;
+}
+footer .footer-nav .social li {
+  margin-top: 10px;
+}
+footer .footer-nav .social li a {
+  font-family: "Circular Std" sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #2E2E2E;
+}
+footer .footer-nav .social hr {
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  width: 75px;
+  height: 1px;
+  background-color: black;
+}
+footer .footer-nav h6 {
+  margin-left: 32px;
+}
+footer .end p {
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Circular Std" sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.4px;
+  color: #685D5D;
+}/*# sourceMappingURL=style.css.map */
